@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&family=Ibarra+Real+Nova:ital,wght@1,700&family=Montserrat:wght@600&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Prompt:ital,wght@1,500&family=Rubik:wght@800&display=swap');
+
+body{
+  
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
+  /*background-image: url("back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+.header{
+   background-color: #000;   
+   padding: 2rem 5.5rem;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header .logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.header .nav a{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left:1.5rem;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.btn{
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 1px solid rgb(0, 0, 0) ;
+    font-size: 1.6rem;
+    padding: .6rem .9rem;
+    font-weight: 600;
+    background: transparent;
+    border-radius: 100px;
+    color: rgb(255, 166, 0);
+}
+
+.btn:hover{
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(255, 166, 0);
+    border-radius: 100px;
+    color: rgb(0, 0, 0);
+}
+  /*Home Section Start*/
+.Home{
+    background-color: #F8C4B4;
+    padding-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+
+.Home .contain{
+    margin-left: 3.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.Home .contain h4{
+    font-size: 2rem;
+}
+
+.Home .contain h1{
+    font-size: 4rem;
+    margin-bottom: .2rem;
+}
+
+ span{
+    color: rgb(255, 166, 0);
+} 
+
+.Home .contain h3{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.Home .contain p{
+    width: 25rem;
+    font-size: 1rem;
+    color: grey;
+}
+
+/*Home Section End*/
+
+/*Education Section Start*/
+
+.education{
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+.education h2{
+    font-size:3rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.education .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.col{
+    margin-right: 0.8rem;
+    margin-left: .8rem;
+    padding-right: 0.8rem;
+    height: auto;
+    border: 5px solid #F8C4B4;
+    text-align: center;
+}
+
+.col:hover{
+    border:5px solid #000000;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+/*education section end*/
+
+/*Skills section Statrt*/
+
+/*Skills section End*/
+
+/*Contact section Statrt*/
+
+.Contact-Me{
+     background-color: #F8C4B4;
+     padding-top: 4.5rem;
+     padding-bottom: 4.5rem;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.Contact-Me .phone-image img{
+    width:35rem;
+    height: auto;
+    margin-left: 2.5rem;
+}
+
+.Contact-Me .information{
+    margin-right: 15rem;
+    text-align: center;
+    font-weight: 600;
+    color: #000;
+}
+
+.Contact-Me .information h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.Contact-Me .information h1 span{
+    padding-left: 5rem;
+}
+
+.Contact-Me form{
+    width: 25rem;
+    padding-top: 2rem;
+}
+
+.Contact-Me input{
+    width: 100%;
+    margin-bottom: 3rem;
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-weight: 600;
+}
+
+/*contact-me section end*/
+
+
+/*About-me section Start*/
+.About-Me{
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.About-Me .text{
+    text-align: center;
+
+}
+
+.About-Me .text h2{
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.About-Me .text p{
+    margin-left: 2.5rem;
+    color: rgb(77, 77, 77);
+    font-weight: 600;
+}
+
+
+.footer{
+    text-align: center;
+    font-size: 1rem;
+}
